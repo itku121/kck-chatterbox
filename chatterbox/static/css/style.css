@@ -22,6 +22,9 @@ body {
     color: silver;
     right: 20px;
 }
+.send-btn:hover {
+	color: rgb(210, 171, 171);
+}
 
 
 .sidebar {
