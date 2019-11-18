@@ -23,7 +23,6 @@ import requests
 @csrf_exempt
 def get_response(request):
 	response = {'status': None}
-	# f = open('blank.txt', 'r+')	
 	
 	
 	if request.method == 'POST':
