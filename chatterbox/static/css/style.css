@@ -2,6 +2,11 @@ body {
 	height: 100%
   }
 
+.top-padding {
+	margin-top: 10px;
+}
+
+
 .sidebar {
 	background-color: silver;
 	
