@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+   <div id='mew' class='d-flex'>
+        <svg width="500" height="350" class="ml-auto">
+            <defs>
+                <clipPath id="myCircle">
+                    
+                <circle cx="250" cy="170" r="135" fill="#FFFFFF" />
+                <polygon :points="points"></polygon>
+                </clipPath>
+            </defs>
+            <image width="500" height="350" xlink:href="/static/img/weronika.jpg" clip-path="url(#myCircle)" />
+        </svg>
+        <svg width="500" height="350">
+            <defs>
+                <clipPath id="myCircle">
+                <circle cx="250" cy="170" r="135" fill="#FFFFFF" />
+                </clipPath>
+            </defs>
+            <image width="500" height="350" xlink:href="/static/img/pawel.jpg" clip-path="url(#myCircle)" />
+        </svg>
+       <div class="mt-auto p-2">
+            <label>Sides: {{ sides }}</label>
+            <input 
+                type="range" 
+                min="3" 
+                max="500" 
+                v-model.number="sides"
+            >
+            <label>Minimum Radius: {{ minRadius }}%</label>
+            <input 
+                type="range" 
+                min="0" 
+                max="90" 
+                v-model.number="minRadius"
+            >
+            <label>Update Interval: {{ updateInterval }} milliseconds</label>
+            <input 
+                type="range" 
+                min="10" 
+                max="2000"
+                v-model.number="updateInterval"
+            >
+       
+       
+       </div> 
+    </div>
+
+
+{% endblock %}
+{% block js %}
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script type="text/javascript" src="/static/js/script2.js"></script>  
+{% endblock %}

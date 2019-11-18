@@ -1,19 +1,37 @@
 body {
-	height: 100%
-  }
 
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  svg { display: block; }
+  polygon { fill: #41B883; }
+  circle {
+    fill: transparent;
+    stroke: #35495E;
+  }
+  input[type="range"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
 .top-padding {
-	margin-top: 10px;
+	margin-top: 5vh;
 }
 .user-message {
     text-align: justify;
 	font-family: 'Lato', sans-serif;
-	background-color: rgb(209, 12, 12);
+    background-color: rgb(209, 12, 12);
+    color: white;
 }
 .chat-message {
     text-align: justify;
 	font-family: 'Lato', sans-serif;
-	background-color: darkcyan;
+    background-color: darkcyan;
+    color: white;
 }
 h1{
     font-family: 'Alata', sans-serif;
@@ -29,7 +47,7 @@ h1{
     right: 20px;
 }
 .send-btn:hover {
-	color: rgb(210, 171, 171);
+	color: rgb(60, 62, 177);
 }
 
 
@@ -60,4 +78,9 @@ h1{
 
 #app p {
 	margin-bottom: 0px;
+}
+
+#mew {
+ 
+    
 }

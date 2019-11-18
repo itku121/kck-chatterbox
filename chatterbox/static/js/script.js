@@ -59,7 +59,9 @@ window.onload = function () {
 				this.send_blank = true;
 				this.placeholder = "Please put in some text";
 			}
-		},
-	  }
+        },
+        
+        
+	  },
 	});
 };
