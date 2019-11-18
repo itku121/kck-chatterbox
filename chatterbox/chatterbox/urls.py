@@ -22,6 +22,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home),
     path('get-response/', get_response),
+    path('about/', about), 
+	
 ]
 
 if settings.DEBUG == True:
