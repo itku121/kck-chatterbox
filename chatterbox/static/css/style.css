@@ -31,3 +31,16 @@ body {
 	background-color: silver;
 	
 }
+
+#app {
+	position: absolute;
+
+}
+
+#app .card {
+	margin-bottom: 5px;
+}
+
+#app p {
+	margin-bottom: 0px;
+}
