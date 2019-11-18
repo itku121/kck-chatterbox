@@ -32,6 +32,16 @@ body {
 	
 }
 
+#text-box {
+	position: relative;
+	bottom: 8px;
+	width: 95%;
+}
+
+#text-box textarea {
+	border: 2px solid;
+}
+
 #app {
 	position: absolute;
 
