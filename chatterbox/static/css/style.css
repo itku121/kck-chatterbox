@@ -14,6 +14,10 @@ body {
 	font-family: "Times New Roman", Times, serif;
 	background-color: rgb(202, 79, 79);
 }
+h1{
+	color: black;
+	text-align: center;
+}
 
 .send-btn {
 	position: absolute;
