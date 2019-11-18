@@ -6,15 +6,17 @@ body {
 	margin-top: 10px;
 }
 .user-message {
-	font-family: "Times New Roman", Times, serif;
-	background-color: rgb(149, 91, 91);
+    text-align: justify;
+	font-family: 'Lato', sans-serif;
+	background-color: rgb(209, 12, 12);
 }
-
 .chat-message {
-	font-family: "Times New Roman", Times, serif;
-	background-color: rgb(202, 79, 79);
+    text-align: justify;
+	font-family: 'Lato', sans-serif;
+	background-color: darkcyan;
 }
 h1{
+    font-family: 'Alata', sans-serif;
 	color: black;
 	text-align: center;
 }
@@ -31,9 +33,10 @@ h1{
 }
 
 
-.sidebar {
-	background-color: silver;
-	
+.navbar-brand {
+    font-family: 'Alata', sans-serif;
+    text-align: justify;
+    color:black;
 }
 
 #text-box {

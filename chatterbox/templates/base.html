@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="/static/css/style.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Alata|Lato&display=swap" rel="stylesheet">
 		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 		{% comment %} <script type="text/javascript" src="/static/js/dev-vue.js"></script> {% endcomment %}
 		{% block css %} {% endblock %}
@@ -17,16 +18,22 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<nav class="sidebar">
-				<div class="sidebar-header">
-					<h3>Chatbot menu</h3>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="navbar-brand">
+					<h1>Chatbot menu</h1>
 				</div>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Chatbot</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">About us</a>
-				</li>
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About us</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Made by Weronika and Pawel</a>
+					</li>
+				</ul>
 			</nav>
 		</div>
 

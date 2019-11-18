@@ -13,7 +13,7 @@ chatbot = ChatBot(
 )
 
 
-trainer = ChatterBotCorpusTrainer(chatbot)
+# trainer = ChatterBotCorpusTrainer(chatbot)
 # chatbot.trainer.train('chatterbot.corpus.english')
 # chatbot.trainer.export_for_training('./export.yml')
 
