@@ -1,0 +1,4 @@
+ChatterBot
+chatterbot-corpus
+Django
+ipython
