@@ -43,7 +43,7 @@ def get_response(request):
 
 
 def home(request, template_name="home.html"):
-	context = {'title': 'Chatbot Version 1.0'}
+	context = {'title': 'Chatterbox'}
 	return render_to_response(template_name, context)
 def about(request, template_name="about.html"):
     return render_to_response(template_name)
